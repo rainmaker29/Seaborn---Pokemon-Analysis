@@ -1,41 +1,27 @@
-# Sales-Win-Loss-prediction
-Predictive analysis of the classical 'Sales Win/Loss' dataset
+# Seaborn---Pokemon-Analysis
 
-The following models have been used in this prediction :
+Bulbasaur,Squirtle,Charmander or Pikachu.
+#### Have you ever wondered who's stronger of these all?
 
-1) Gaussian Naive Bayes
-2) Linear Support Vectors Classification
-3) K Neighbors Classifier
+<br>
+<center>
 
+![Starter.png](poke.png)
 
-The Sales-Win-Loss dataset was cloned from 
+</center>
 
-<https://github.com/vkrit/data-science-class/blob/master/WA_Fn-UseC_-Sales-Win-Loss.csv>
+### We have all watched Pokemon as kids.
 
-Here's a sample of dataset used :
+Now that we're onto Data Science,let's analyze who's stronger not just among these 4 but out of all the 151 pokemon from the ***Pokemon.csv*** dataset.
 
-![Data sample](salesdatahead.png)
+Dataset source : <https://gist.github.com/armgilles/194bcff35001e7eb53a2a8b441e8b2c6>
 
-Using this data,it's predicted if a new sale will be a win or a loss.
+### Here's a look at the dataset :
 
-References to the working of above used algorithms are given below :
+![datahead](datahead.png)
 
-<ol>
-<li>Gaussian Naive Bayes :
+## This is a visually focussed analysis using Seaborn's powerful plots to describe and analyze the data.
 
-<https://scikit-learn.org/stable/modules/naive_bayes.html#gaussian-naive-bayes>
+### Seaborn reference : <https://seaborn.pydata.org/>
 
-</li>
-<li>Linear SVC :
-
-<https://scikit-learn.org/stable/modules/svm.html>
-
-</li>
-<li>K-Neighbors Classifier :
-
-<https://scikit-learn.org/stable/modules/neighbors.html>
-
-</li>
-</ol>
-
-Prediction idea : Dataquest.io , Linkedin.com
+Idea : elitedatascience.com
